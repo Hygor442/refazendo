@@ -72,6 +72,9 @@ nav ul ul li a{
 }
 
 @media all and (max-width:968px){
+    header{
+        position: inherit;
+    }
     nav ul{
         margin: 0;
         float: left;
@@ -113,7 +116,8 @@ nav ul ul li a{
         display: block;
         color: black;
         position: absolute;
-        right: 70px;
+        right: 5%;
+        top: 5%;
         line-height: 40px;
         font-size:40px ;
         cursor: pointer;
@@ -126,6 +130,14 @@ nav ul ul li a{
     }
     [id^=btn]:checked +ul{
         display: block;
+    }
+    main,footer{
+        width: 100%;
+    }
+    .conteiner{
+        display: flex;
+        justify-content: center;
+        flex-direction:column ;
     }
 }
 @media(max-width:400px){

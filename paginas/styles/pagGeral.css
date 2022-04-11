@@ -77,6 +77,12 @@ main p{
 .dica{
     margin-top: 2rem;
 }
+
+.dica ul{
+    font-family: var(--font-secundaria);
+    padding-left: 3rem;
+    font-size: 1.1rem;
+}
 .aviso p, .dica p{
     padding: 0 2rem 0 2rem;    
     text-align: justify;
