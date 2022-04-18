@@ -56,6 +56,11 @@ main ol{
     padding-left: 3rem;
     font-weight: bold;
 }
+main ol ul{
+    padding-left: 2rem;
+    font-family: var(--font-secundaria);
+    line-height: 1.5rem;
+}
 main p{
     padding: 5px 0 5px 1rem;
     font-family: var(--font-secundaria);

@@ -131,6 +131,9 @@ nav ul ul li a{
     [id^=btn]:checked +ul{
         display: block;
     }
+    main ul{
+        display: block;
+    }
     main,footer{
         width: 100%;
     }
@@ -171,6 +174,9 @@ nav ul ul li a{
         font-size: 1rem;
         padding-right: 1rem;
     }
+    main ul{
+        display: block;
+    }
     .box{
         width: 100%;
     }
@@ -179,6 +185,9 @@ nav ul ul li a{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+    }
+    .conteiner iframe{
+        width: 100%;
     }
     footer{
         width: 100%;
